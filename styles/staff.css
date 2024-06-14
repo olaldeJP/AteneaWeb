@@ -5,15 +5,15 @@
 .nuestroStaff {
     background: linear-gradient(to left, var(--pink), var(--grey));
     margin-top: 100px;
-    height: 1500px;
+    height: 900px;
 }
 
 .carStaff {
     background-color: linear-gradient(to right, var(--grey), var(--pink));
-    border: 0px;
     border-radius: 5%;
-    width: 350px;
-    height: 380px;
+    margin: 15px;
+    width: 300px;
+    height: 500px;
     transition: all .5s ease;
 }
 
@@ -42,7 +42,7 @@
 .carStaff:hover {
     transform: scale(1.02);
     border-radius: 20px;
-    box-shadow: 0px 0px 30px 5px var(--dark-green);
+    box-shadow: 0px 0px 15px 0px var(--dark-green);
 }
 
 .boxImagStaff:hover img:hover {
@@ -59,4 +59,44 @@
     transition: all 1s ease;
     opacity: 0;
     display: none;
+}
+
+
+
+.slider {
+    width: 85%;
+    height: 750px;
+    margin-top: 50px;
+    overflow: hidden;
+
+}
+
+.slide-track {
+    height: auto;
+}
+
+.slider .slide-track {
+    display: flex;
+    -webkit-animation: scroll 25s linear infinite;
+    animation: scroll 25s linear infinite;
+    width: calc(300px * 16);
+
+}
+
+.slider:hover .slide-track:hover {
+    animation-play-state: paused
+}
+
+
+
+@keyframes scroll {
+    0% {
+        -webkit-animation: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-animation: translateX(calc(-250px *8));
+        transform: translateX(calc(-250px * 8));
+    }
 }
