@@ -1,0 +1,52 @@
+.content {
+    background-image: url('../img/img_Sect.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 150px;
+    background-position: center;
+    min-height: 90vh;
+}
+
+
+.sectionBienvenidosLeft button {
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    padding: 10px;
+}
+
+.sectionBienvenidosLeft h1,
+p {
+    color: var(--dark-green);
+}
+
+.sectionBienvenidosLeft {
+
+    animation: mostrarSect 1s ease-in-out forwards;
+
+}
+
+@keyframes mostrarSect {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+
+    }
+}
+
+.btn-outline-primary {
+    color: var(--pink);
+    background-color: var(--dark-green);
+    border-color: var(--grey);
+    width: 180px;
+    height: 70px;
+}
+
+.btn-outline-primary:hover {
+    border-color: var(--grey);
+    background-color: var(--pink);
+    color: var(--dark-green);
+}

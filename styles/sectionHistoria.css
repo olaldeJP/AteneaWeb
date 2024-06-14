@@ -1,0 +1,12 @@
+.sectionHistoria {
+    margin-top: 150px;
+    background: linear-gradient(to right, #c89b7e, #ffffff)
+}
+
+.leftHistoria {
+    background-image: url('../img/FondoHistoria.jpg');
+    background-size: cover;
+    background-position: center;
+
+
+}

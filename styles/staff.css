@@ -1,0 +1,25 @@
+.divStaff {
+    background: black;
+    perspective: 1000px;
+    position: relative;
+    height: 600px;
+}
+
+.backgroundPict {
+    background-image: url(../img/Melanie.jpg);
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px var(--dark-green);
+    transition: box-shadow 1s ease;
+    transform-style: preserve-3d;
+}
+
+.card:hover {
+    box-shadow: none;
+
+}

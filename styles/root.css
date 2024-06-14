@@ -1,0 +1,16 @@
+:root {
+    --dark-green: #004025;
+    --grey: #d2d3d5;
+    --pink: #c89b7e;
+    --text-color: #2c3e50;
+}
+
+body {
+    background: linear-gradient(to bottom, var(--dark-green), var(--grey));
+
+}
+
+h1,
+p {
+    color: var(--dark-green);
+}
