@@ -96,7 +96,7 @@
     }
 
     100% {
-        -webkit-animation: translateX(calc(-250px *8));
-        transform: translateX(calc(-250px * 8));
+        -webkit-animation: translateX(calc(-250px *12));
+        transform: translateX(calc(-250px * 12));
     }
 }
