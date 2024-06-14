@@ -6,8 +6,7 @@
 }
 
 body {
-    background: linear-gradient(to bottom, var(--dark-green), var(--grey));
-
+    background: var(--dark-green)
 }
 
 h1,
