@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="comercioInternacional" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#D2D3D3;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:#D2D3D4;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#000000;stroke-linecap:round;stroke-miterlimit:10;}
+	.st5{font-family:'MyriadPro-Regular';}
+	.st6{font-size:9.6022px;}
+</style>
+<radialGradient id="SVGID_1_" cx="40.4151" cy="38.6008" r="33.6421" gradientTransform="matrix(1 -7.398872e-03 7.398872e-03 1 -0.4335 0.1768)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#D2D3D4"/>
+	<stop  offset="0.9743" style="stop-color:#0C4025"/>
+</radialGradient>
+<polygon class="st0" points="60.64,67.37 25.43,70.57 5.06,41.67 19.89,9.59 55.1,6.39 75.47,35.28 "/>
+<g>
+	<circle class="st1" cx="40.15" cy="37.5" r="15.66"/>
+	<line class="st2" x1="24.5" y1="38.09" x2="55.81" y2="37.86"/>
+	<line class="st2" x1="24.5" y1="38.09" x2="55.81" y2="37.86"/>
+	<line class="st2" x1="25.92" y1="30.94" x2="54.28" y2="30.73"/>
+	<line class="st2" x1="26.04" y1="44.57" x2="54.23" y2="44.37"/>
+	<line class="st2" x1="40.27" y1="53.16" x2="40.03" y2="21.84"/>
+	<path class="st2" d="M40.27,53.16c-6.41-4.17-9.87-11.43-8.81-18.52c1.19-7.97,7.56-12.16,8.58-12.81"/>
+	<path class="st2" d="M40.27,53.16c0.46-0.28,8.78-5.54,8.79-15.58c0.01-10.24-8.63-15.52-9.02-15.75"/>
+</g>
+<circle class="st3" cx="47.61" cy="50.92" r="5.73"/>
+<path class="st4" d="M48.49,47.46"/>
+<path class="st4" d="M48.45,46.17"/>
+<text transform="matrix(1 -7.398872e-03 7.398872e-03 1 45.171 53.9455)" class="st5 st6">$</text>
+</svg>
