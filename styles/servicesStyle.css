@@ -1,0 +1,26 @@
+.serviciosSection {
+    margin-top: 100px;
+    background: linear-gradient(to left, var(--pink), var(--grey));
+}
+
+.serviciosDiv {
+    padding-bottom: 30px !important;
+}
+
+.textoService ul li {
+    color: var(--dark-green)
+}
+
+.svgServices {
+    width: 65%
+}
+
+.movimientoSuave {
+    transition: all 1s ease;
+
+}
+
+.movimientoSuave:hover,
+.agrandar {
+    transform: scale(1.05)
+}
