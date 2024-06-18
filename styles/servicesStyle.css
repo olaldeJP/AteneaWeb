@@ -3,9 +3,7 @@
     background: linear-gradient(to left, var(--pink), var(--grey));
 }
 
-.serviciosDiv {
-    padding-bottom: 30px !important;
-}
+
 
 .textoService ul li {
     color: var(--dark-green)

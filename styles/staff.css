@@ -9,7 +9,7 @@
 }
 
 .carStaff {
-    background-color: linear-gradient(to right, var(--grey), var(--pink));
+    background-color: var(--dark-green);
     border-radius: 5%;
     margin: 15px;
     width: 300px;
@@ -21,6 +21,12 @@
     opacity: 0;
     display: none;
     margin: 5px;
+}
+
+.carStaff h4,
+.carStaff h6,
+.carStaff p {
+    color: var(--pink);
 }
 
 .boxImagStaff img {

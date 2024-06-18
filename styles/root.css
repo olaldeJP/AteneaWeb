@@ -13,3 +13,9 @@ h1,
 p {
     color: var(--dark-green);
 }
+
+.separar {
+
+    padding-bottom: 30px !important;
+
+}
