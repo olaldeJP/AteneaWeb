@@ -31,6 +31,7 @@
 }
 
 
+
 .linkItemNav {
     color: var(--dark-green);
     font-size: 20px;
@@ -43,16 +44,13 @@
 
 
 .linkItemNav:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     color: var(--pink) !important;
-    border-bottom: 2px solid
+
+    border-bottom: 1px solid
 }
 
-.linkAtenea {
-    opacity: 0;
-    color: var(--pink);
-    animation: showLog 2.5s ease-in-out forwards
-}
+
 
 .linkItemNav:after {
 
@@ -62,9 +60,4 @@
     width: 100%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.5s ease;
-}
-
-.linkItemNav:hover::after {
-    border-bottom: 2px solid;
-
 }

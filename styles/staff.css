@@ -3,7 +3,7 @@
 }
 
 .nuestroStaff {
-    background: linear-gradient(to left, var(--pink), var(--grey));
+    background: var(--dark-green);
     margin-top: 100px;
     height: 900px;
 }
@@ -11,6 +11,7 @@
 .carStaff {
     background-color: var(--dark-green);
     border-radius: 5%;
+    border: 2px solid var(--pink);
     margin: 15px;
     width: 300px;
     height: 500px;
@@ -24,6 +25,7 @@
 }
 
 .carStaff h4,
+.carStaff h3,
 .carStaff h6,
 .carStaff p {
     color: var(--pink);
@@ -73,6 +75,7 @@
     width: 85%;
     height: 750px;
     margin-top: 50px;
+
     overflow: hidden;
 
 }
@@ -82,12 +85,15 @@
 }
 
 .slider .slide-track {
+
     display: flex;
     -webkit-animation: scroll 25s linear infinite;
     animation: scroll 25s linear infinite;
     width: calc(300px * 16);
 
 }
+
+
 
 .slider:hover .slide-track:hover {
     animation-play-state: paused
@@ -106,6 +112,7 @@
 }
 
 .moveFast {
+    border: 2px solid var(--pink);
     width: 50px;
     height: 50px;
     border-radius: 50%;
