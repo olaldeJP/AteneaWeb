@@ -9,6 +9,7 @@
 
 #contact {
     background-color: var(--grey);
+    padding-bottom: 0px !important;
 }
 
 .formcontainer {
