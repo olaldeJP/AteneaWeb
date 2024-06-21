@@ -1,9 +1,11 @@
 .serviciosSection {
-    margin-top: 100px;
-    background: linear-gradient(to left, var(--pink), var(--grey));
+    background: linear-gradient(to bottom, var(--pink), var(--grey));
+
 }
 
-
+#servicios {
+    background-color: var(--pink);
+}
 
 .textoService ul li {
     color: var(--dark-green)

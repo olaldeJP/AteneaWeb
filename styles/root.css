@@ -1,24 +1,27 @@
 :root {
-    --dark-green: #004025;
+    --dark-green: #06602b;
     --grey: #d2d3d5;
-    --pink: #c89b7e;
+    --pink: #fde482f0;
     --text-color: #2c3e50;
 }
 
 body {
-    background: var(--grey)
+    background: rgba(0, 0, 0, 0.664)
 }
 
 h1,
 h2,
 p {
-    color: var(--pink);
+    color: var(--dark-green);
 }
 
 .separar {
+    padding-bottom: 100x !important;
 
-    padding-bottom: 30px !important;
+}
 
+#nuestroStaffDiv {
+    background-color: var(--grey) !important;
 }
 
 /* Estilos para el botón "Back to Top" */

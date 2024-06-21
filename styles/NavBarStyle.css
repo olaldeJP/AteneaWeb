@@ -2,9 +2,9 @@
 
 
 .navbar {
-    height: 100px !important;
-    background: linear-gradient(to bottom, var(--grey), white);
-    margin-top: 50px;
+    height: 80px !important;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.664) !important;
 }
 
 .navBarStyle button {
@@ -17,8 +17,7 @@
 
 
 .imgLogoStyle {
-    margin-left: 60px;
-    margin-top: 15px;
+    margin-left: 20%;
     border-radius: 100%;
     opacity: 0;
     animation: showLog 2.5s ease-in-out forwards
@@ -34,7 +33,7 @@
 
 .linkItemNav {
     color: var(--dark-green);
-    font-size: 20px;
+    font-size: 16px;
     position: relative;
     display: inline-block;
     transition: transform 0.5s ease, color 0.5s ease;

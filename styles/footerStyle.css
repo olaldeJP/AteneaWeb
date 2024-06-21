@@ -1,8 +1,16 @@
 .footerDiv {
-    padding-top: 50px;
-    background: linear-gradient(to left, var(--pink), var(--grey));
+    padding: 45px;
+    background: linear-gradient(to bottom, var(--pink), var(--grey));
 }
 
 .logoFooter {
+
     border-radius: 50%;
+    border: 1px solid;
+}
+
+.footerSection {
+
+    margin-top: 90px;
+    height: 320px;
 }

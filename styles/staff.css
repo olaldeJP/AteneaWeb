@@ -3,8 +3,8 @@
 }
 
 .nuestroStaff {
-    background: var(--dark-green);
-    margin-top: 100px;
+    background: linear-gradient(to bottom, var(--grey), var(--pink));
+
     height: 900px;
 }
 
@@ -29,6 +29,10 @@
 .carStaff h6,
 .carStaff p {
     color: var(--pink);
+}
+
+.h2Service {
+    color: var(--dark-green);
 }
 
 .boxImagStaff img {
