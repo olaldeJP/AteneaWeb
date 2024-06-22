@@ -1,16 +1,23 @@
-.footerDiv {
+.divWelcome {
     padding: 45px;
     background: linear-gradient(to bottom, var(--pink), var(--grey));
 }
 
-.logoFooter {
+.logoWelcome {
 
     border-radius: 50%;
     border: 1px solid;
 }
 
-.footerSection {
+.welcomeSection {
 
     margin-top: 90px;
     height: 320px;
+}
+
+.divLeng {
+
+    width: 100%;
+    height: 50px;
+
 }
