@@ -41,3 +41,17 @@
     background-color: var(--dark-green);
     border-radius: 50%;
 }
+
+@media (max-width:980px) {
+    .flex-Column-980 {
+        flex-direction: column !important;
+        width: 100% !important;
+
+    }
+
+    #asesoramientoYAsis {
+        align-self: flex-start;
+        margin-left: l0px !important;
+
+    }
+}
