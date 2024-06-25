@@ -1,18 +1,9 @@
-.serviciosSection {
-    background: linear-gradient(to bottom, var(--pink), var(--grey));
-
-}
-
-#servicios {
-    background-color: var(--pink);
-}
-
 .textoService ul li {
     color: var(--dark-green)
 }
 
 .boxesServices {
-    border: 2px solid var(--dark-green);
+
     border-radius: 5%;
     transition: 0.5s all ease;
 }

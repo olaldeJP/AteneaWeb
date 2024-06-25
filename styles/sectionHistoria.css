@@ -1,20 +1,4 @@
-.sectionHistoria {
-    background: linear-gradient(to bottom, var(--pink), var(--grey));
-}
-
-.leftHistoria {
-    background: linear-gradient(to bottom, var(--pink), var(--grey));
-    background-size: cover;
-    background-position: center;
-
-
-}
-
 .rightHistoria h2,
 p {
     color: var(--dark-green)
-}
-
-#HistoriaYVision {
-    background-color: var(--pink);
 }

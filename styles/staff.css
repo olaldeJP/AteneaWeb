@@ -3,7 +3,7 @@
 }
 
 .nuestroStaff {
-    background: linear-gradient(to bottom, var(--grey), var(--pink));
+
     height: 1200px !important;
 }
 
@@ -99,8 +99,8 @@
 .slider .slide-track {
 
     display: flex;
-    -webkit-animation: scroll 25s linear infinite;
-    animation: scroll 25s linear infinite;
+    -webkit-animation: scroll 10s linear infinite;
+    animation: scroll 10s linear infinite;
     width: calc(300px * 16);
 
 }
@@ -112,23 +112,7 @@
 }
 
 
-.sliderFast {
-    -webkit-animation-duration: 5s !important;
-    animation-duration: 5s !important;
-}
 
-
-.sliderIzquierda {
-    animation-direction: reverse !important;
-    animation-duration: 5s !important;
-}
-
-.moveFast {
-    border: 2px solid var(--pink);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
 
 @keyframes scroll {
     0% {
@@ -184,4 +168,19 @@
     .nuestroStaff {
         height: 1900px !important;
     }
+}
+
+.carStaff2 {
+    background-color: var(--dark-green) !important;
+
+
+}
+
+.carStaff2 h4,
+.carStaff2 h6 {
+    color: var(--pink) !important;
+}
+
+.parraf {
+    color: var(--pink) !important;
 }

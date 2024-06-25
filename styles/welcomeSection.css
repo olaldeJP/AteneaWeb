@@ -1,6 +1,6 @@
 .divWelcome {
     padding: 45px;
-    background: linear-gradient(to bottom, var(--pink), var(--grey));
+
 }
 
 .logoWelcome {
@@ -11,12 +11,11 @@
 
 .welcomeSection {
 
-    margin-top: 90px;
+    margin-top: 110px;
     height: 320px;
 }
 
 .divLeng {
-
     width: 100%;
     height: 50px;
 

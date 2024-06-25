@@ -3,8 +3,8 @@
 
 .navbar {
     height: 105px !important;
-    margin-top: 45px;
-    background-color: var(--pink) !important;
+
+
 }
 
 .navBarStyle button {
@@ -34,7 +34,7 @@
 
 .linkItemNav {
     color: var(--dark-green);
-    font-size: 19px;
+    font-size: 17px;
     position: relative;
     display: inline-block;
     transition: transform 0.5s ease, color 0.5s ease;
@@ -50,9 +50,18 @@
 
 }
 
-@media (max-width:992px) {
+.navbar-toggler {
+    border: 2px solid var(--dark-green);
+}
+
+
+@media (max-width:1200px) {
     .navbar {
         background-color: transparent !important
+    }
+
+    .linkItemNav {
+        padding: 0px !important;
     }
 
     .navbar-collapse {
@@ -60,11 +69,14 @@
     }
 
     .liService {
-        padding-left: 25px;
+        padding-left: 15px !important;
         color: var(--dark-green);
     }
 
     .navbar-toggler {
         border: 1px solid var(--dark-green);
+
     }
+
+
 }
