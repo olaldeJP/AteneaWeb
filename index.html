@@ -14,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/NavBarStyle.css" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <link rel="stylesheet" href="styles/sectionBienvenidos.css" />
     <link rel="stylesheet" href="styles/sectionHistoria.css" />
     <link rel="stylesheet" href="styles/staff.css" />
@@ -83,13 +85,13 @@
         </div>
        </div>
     </nav>
- <div class="divLeng d-flex justify-content-end w-75">
+ <div class="divLeng d-flex justify-content-end w-75" >
   <a href="/index.html" class="m-1">
     <img class="imgLeng" src="img/spain.png" alt="spainFlag" width="40px"></a>
     <a href="/indexEnglish.html" class="m-1">
       <img class="imgLeng" src="img/english.png" alt="spainFlag" width="40px"></a>
  </div>
-    <section class="welcomeSection">
+    <section class="welcomeSection " data-aos="fade-right">
         <div class="d-flex justify-content-between flex-lg-row flex-column divWelcome">
             <div class="d-flex flex-column pt-4">
                 
@@ -106,7 +108,7 @@
     </section>
 
     <section
-      class="content d-flex justify-content-center align-items-center flex-column"
+      class="content d-flex justify-content-center align-items-center flex-column" data-aos="fade-right"
     >
       <div class="sectionBienvenidosLeft w-75 p-4">
    
@@ -132,7 +134,7 @@
     <div id="HistoriaYVision" class="separar"></div>
     <section class="sectionHistoria d-flex justify-content-center">
  
-      <div class="d-flex flex-column align-items-center rightHistoria  w-50 p-5">
+      <div class="d-flex flex-column align-items-center rightHistoria  w-50 p-5 " data-aos="fade-right">
         <h2>Historia y Visión</h2>
         <p class="pt-4">
           Nuestra empresa surge del encuentro de profesionales altamente
@@ -150,8 +152,8 @@
         </p>
       </div>
     </section>
-    <div id="nuestroStaffDiv" class="separar"></div>
-    <section class="nuestroStaff d-flex flex-column align-items-center pt-4">
+    <div id="nuestroStaffDiv" class="separar" ></div>
+    <section class="nuestroStaff d-flex flex-column align-items-center pt-4" data-aos="fade-right">
       <div class="pt-4 w-50 d-flex flex-column align-items-center">
         <h2 class="h2Service">Nuestro Staff</h2>
         <p>
@@ -319,7 +321,7 @@
     </section>
     <div id="servicios" class="separar p-3"></div>
     
-    <section class="d-flex  serviciosSection flex-column align-items-center w-100 pt-5">
+    <section class="d-flex  serviciosSection flex-column align-items-center w-100 pt-5" data-aos="fade-right">
         <div class=" d-flex  flex-column align-items-center w-50 pb-5">
             <h2 class="m-4">Servicios</h2>
             <p class="pt-2 m-3">
@@ -458,7 +460,7 @@
 <div id="contact" class="separar p-5"></div>
 
 
-<section class="formSection">
+<section class="formSection" data-aos="fade-right">
 <div id="formContact" class=" d-flex justify-content-center flex-column align-items-center paddTop  blackCont">
   <h4 class="mb-5">Contáctanos</h4>
     <div class="formcontainer blackCont">
@@ -494,5 +496,11 @@
     <script src="Scripts/scriptStaff.js"></script>
     <script src="Scripts/scriptServices.js"></script>
     <script src="Scripts/buttonScroll.js"></script>
+      <script>
+        AOS.init({
+            duration: 1500,
+            once: true,
+        });
+    </script>
   </body>
 </html>

@@ -34,7 +34,7 @@
 
 .linkItemNav {
     color: var(--dark-green);
-    font-size: 20px;
+    font-size: 19px;
     position: relative;
     display: inline-block;
     transition: transform 0.5s ease, color 0.5s ease;
@@ -45,7 +45,9 @@
 
 .linkItemNav:hover {
     transform: scale(1.1);
-    border-bottom: 1px solid
+    border-bottom: 1px solid;
+
+
 }
 
 @media (max-width:992px) {
