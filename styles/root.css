@@ -7,13 +7,16 @@
 
 body {
 
-    font-family: "Satisfy", cursive;
-    font-weight: 400;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 80px;
     font-style: normal;
-    font-size: 17px;
 }
 
-
+.logoWelcome {
+    border: 1px solid black;
+    border-radius: 100%;
+}
 
 h1,
 h2,

@@ -3,16 +3,20 @@
 }
 
 .boxesServices {
-
-    border-radius: 5%;
-    transition: 0.5s all ease;
+    border: 1px solid var(--dark-green);
+    border-radius: 10%;
+    box-shadow: 4px 6px rgba(30, 102, 58, 0.705);
+    transition: 1s all ease;
 }
 
 .boxesServices:hover {
+    border-radius: 5%;
     background-color: var(--dark-green);
-
+    box-shadow: 4px 4px var(--pink);
     scale: 1.05;
 }
+
+
 
 .boxesServices h5 {
     color: var(--dark-green);
@@ -20,11 +24,19 @@
 
 .boxesServices:hover h5,
 .boxesServices:hover p {
-    color: var(--pink)
+    color: var(--pink);
+    display: flex;
+    opacity: 1;
+
 }
 
 .boxesServices:hover svg {
     background-color: var(--pink);
+}
+
+.boxesServices p {
+    opacity: 0;
+    display: none;
 }
 
 .svgServices {

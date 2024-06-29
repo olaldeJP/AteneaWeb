@@ -2,8 +2,8 @@
 
 
 .navbar {
-    height: 105px !important;
-
+    height: 65px !important;
+    background-color: rgba(12, 195, 97, 0.378) !important;
 
 }
 
@@ -15,6 +15,7 @@
 
 
 .imgLogoStyle {
+
     margin-left: 20%;
     border-radius: 100%;
     opacity: 0;
@@ -34,7 +35,7 @@
 
 .linkItemNav {
     color: var(--dark-green);
-    font-size: 17px;
+    font-size: 15px;
     position: relative;
     display: inline-block;
     transition: transform 0.5s ease, color 0.5s ease;
@@ -42,18 +43,18 @@
 
 }
 
+.linkItemNav a {
+    margin: 18px !important;
+}
 
 .linkItemNav:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     border-bottom: 1px solid;
-
-
 }
 
 .navbar-toggler {
     border: 2px solid var(--dark-green);
 }
-
 
 @media (max-width:1200px) {
     .navbar {
