@@ -3,7 +3,7 @@
 
 .navbar {
     height: 65px !important;
-    background-color: rgba(12, 195, 97, 0.378) !important;
+    background-color: var(--light-green) !important;
 
 }
 
