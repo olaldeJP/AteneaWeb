@@ -4,7 +4,7 @@
     border-radius: 20px;
     overflow: hidden;
     height: 130px !important;
-    transition: all 1s ease;
+    transition: all 1.5s ease;
     width: 550px !important;
     text-align: center;
 
@@ -25,9 +25,15 @@
 }
 
 .boxSerices:hover {
-    height: 400px !important;
+    height: 450px !important;
     transform: scale(1.04);
     background-color: var(--dark-green);
+
+}
+
+.boxSerices1:hover {
+    transition: all 2s ease;
+    height: 700px !important;
 }
 
 .boxSerices:hover p {
