@@ -2,8 +2,3 @@
     background: linear-gradient(to bottom, var(--firstColor), var(--secondColor));
 
 }
-
-.rightHistoria h2,
-p {
-    color: var(--dark-green)
-}

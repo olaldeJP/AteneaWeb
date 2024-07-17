@@ -33,3 +33,7 @@
 .boxSerices:hover p {
     visibility: visible;
 }
+
+.svgComer {
+    width: 9%;
+}

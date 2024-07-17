@@ -3,7 +3,14 @@
     --grey: #d2d3d5;
     --pink: #fde482f0;
     --text-color: #2c3e50;
-    --light-green: rgba(12, 195, 97, 0.378);
+    --light-green: rgb(74, 223, 144);
+
+    --primary-Dark: #114b29;
+    --primary-Dark-Oppacity: #114b29d8;
+    --primary-noHover: #189a6aee;
+    --secundary-Dark: #fde482;
+    --primary-Light: rgb(74, 223, 144);
+    --secundary-Light: #fde482c0;
 }
 
 body {
@@ -15,10 +22,6 @@ body {
     text-align: center;
 }
 
-.logoWelcome {
-    border: 1px solid black;
-    border-radius: 100%;
-}
 
 h1,
 h2,

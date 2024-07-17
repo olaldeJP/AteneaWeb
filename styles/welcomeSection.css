@@ -6,7 +6,8 @@
 
 .welcomeSection {
     background: linear-gradient(to bottom, var(--firstColor), var(--secondColor));
-    margin-top: 110px;
+    margin-top: 230px;
+    margin-bottom: 100px;
     height: 320px;
 }
 
@@ -14,4 +15,9 @@
     width: 100%;
     height: 50px;
 
+}
+
+.logoWelcome {
+    border: 1px solid black;
+    border-radius: 100%;
 }

@@ -1,9 +1,9 @@
 .formSection {
-    background-image: url('../img/fondoFooter.svg');
+    background-image: url('../img/footerSVG.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 900px;
 }
 
 .formSection h4 {
@@ -13,8 +13,8 @@
 
 .formcontainer {
     width: 450px;
-    background: linear-gradient(#06602baf, #d2d3d586) padding-box,
-        linear-gradient(145deg, transparent 35%, var(--dark-green), var(--grey)) border-box;
+    background: linear-gradient(var(--light-green), #d2d3d586) padding-box,
+        linear-gradient(145deg, transparent 35%, var(--light-green), var(--grey)) border-box;
     border: 2px solid transparent;
     padding: 32px 24px;
     font-size: 14px;
@@ -90,12 +90,12 @@
 
 .formcontainer .formgroup input:focus {
     outline: none;
-    border-color: var(--pink);
+    border-color: var(--dark-green);
 }
 
 .formcontainer .formgroup textarea:focus {
     outline: none;
-    border-color: var(--pink);
+    border-color: var(--dark-green);
 }
 
 .formcontainer .formsubmitbtn {
@@ -118,6 +118,10 @@
     border-radius: 6px;
 }
 
+.formcontainer input,
+.formcontainer textarea {
+    color: var(--dark-green) !important;
+}
 
 
 .formcontainer .formsubmitbtn:hover {

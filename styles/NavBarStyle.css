@@ -2,82 +2,124 @@
 
 
 .navbar {
-    height: 65px !important;
-    background-color: var(--light-green) !important;
+    height: 80px !important;
+    background-color: var(--primary-Dark) !important;
 
 }
 
-.navBarStyle button {
-    color: var(--grey);
-    background-color: var(--pink);
-
-}
 
 
 .imgLogoStyle {
-
     margin-left: 20%;
     border-radius: 100%;
     opacity: 0;
     animation: showLog 2.5s ease-in-out forwards
 }
 
-@keyframes showLog {
-    to {
-        opacity: 1;
-    }
-}
+.nav-item {
+    border-radius: 6px;
+    height: 45px;
+    transition: all 1s;
+    margin-right: 20px;
 
-.servicesOption {
-    background-color: var(--grey);
-}
-
-
-.linkItemNav {
-    color: var(--dark-green);
-    font-size: 15px;
-    position: relative;
-    display: inline-block;
-    transition: transform 0.5s ease, color 0.5s ease;
 
 
 }
 
-.linkItemNav a {
-    margin: 18px !important;
+.nav-link {
+    color: var(--secundary-Dark)
 }
 
-.linkItemNav:hover {
-    transform: scale(1.05);
-    border-bottom: 1px solid;
+.nav-item a:hover {
+    border-bottom: 1px solid var(--secundary-Dark);
+    color: var(--secundary-Dark);
+
 }
 
-.navbar-toggler {
-    border: 2px solid var(--dark-green);
+.nav-item:hover {
+    scale: 1.1;
+}
+
+.navbar-nav {
+    padding-left: 10%;
+}
+
+.container-fluid button {
+    transition: all 1s;
+    background-color: var(--secundary-Light)
+}
+
+.dropdown-item:hover {
+    border-bottom: 2px solid var(--secundary-Dark);
+}
+
+.container-fluid button:hover {
+    background-color: var(--secundary-Dark)
+}
+
+.dropdown-menu {
+    background-color: var(--primary-Dark) !important;
+
+}
+
+.dropdown-menu li a {
+    color: var(--secundary-Dark);
+}
+
+.dropdown-menu li a:hover {
+    background-color: var(--primary-Dark) !important;
 }
 
 @media (max-width:1200px) {
     .navbar {
-        background-color: transparent !important
-    }
-
-    .linkItemNav {
-        padding: 0px !important;
-    }
-
-    .navbar-collapse {
-        background-color: var(--grey);
-    }
-
-    .liService {
-        padding-left: 15px !important;
-        color: var(--dark-green);
-    }
-
-    .navbar-toggler {
-        border: 1px solid var(--dark-green);
+        height: 115px !important;
+        background-color: var(--primary-noHover) !important;
 
     }
 
 
+
+    .navbar-collapse ul {
+        background-color: var(--primary-noHover);
+
+    }
+
+    .nav-item-options a {
+        width: 20%;
+    }
+
+    .dropdown-menu li :hover {
+        width: 80% !important;
+        background-color: var(--primary-noHover) !important;
+    }
+
+
+}
+
+
+@media (max-width:805px) {
+    .nav-item a {
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 1199.98px) {
+    .navbar-expand-custom {
+        display: none;
+    }
+
+    .navbar-collapse-custom {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-expand-custom {
+        display: flex !important;
+    }
+
+    .navbar-collapse-custom {
+        display: none;
+    }
 }
