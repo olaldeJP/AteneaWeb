@@ -1,3 +1,11 @@
 .textTitulo {
     border-bottom: 1px solid var(--dark-green);
 }
+
+p {
+    font-size: 22px;
+}
+
+h5 {
+    color: var(--dark-green);
+}

@@ -1,5 +1,5 @@
 .boxSerices {
-    border: solid 1px;
+    border: solid 2px var(--dark-green);
     padding-top: 10px;
     border-radius: 20px;
     overflow: hidden;
@@ -13,7 +13,7 @@
 .boxSerices svg {
     border-radius: 100%;
     background-color: var(--dark-green);
-    border: 1px solid;
+    border: 2px solid var(--dark-green);
 }
 
 .boxText p {
@@ -27,11 +27,20 @@
 .boxSerices:hover {
     height: 400px !important;
     transform: scale(1.04);
-    background-color: var(--light-green);
+    background-color: var(--dark-green);
 }
 
 .boxSerices:hover p {
     visibility: visible;
+    color: var(--secundary-Dark);
+}
+
+.boxSerices:hover svg {
+    background-color: var(--secundary-Dark);
+}
+
+.boxSerices:hover h5 {
+    color: var(--secundary-Dark);
 }
 
 .svgComer {

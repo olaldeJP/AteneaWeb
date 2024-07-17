@@ -6,8 +6,8 @@
 
 .welcomeSection {
     background: linear-gradient(to bottom, var(--firstColor), var(--secondColor));
-    margin-top: 230px;
-    margin-bottom: 100px;
+    margin-top: 235px;
+    margin-bottom: 150px;
     height: 320px;
 }
 

@@ -21,7 +21,7 @@
     border-radius: 20px;
     margin: 10px;
     padding: 15px;
-    border: 1px solid;
+    border: 2px solid var(--primary-Dark);
     width: 400px;
 }
 
@@ -33,13 +33,56 @@
 .slide:hover {
     transition: all 0.5s;
     transform: scale(1.04);
-    background-color: var(--light-green) !important;
-    box-shadow: 0px 0px 15px 0px var(--dark-green);
-
+    background-color: var(--primary-Dark) !important;
+    box-shadow: 0px 0px 15px 0px var(--primary-Dark-Oppacity) !important;
 }
+
+
 
 .slider:hover .slide-track:hover {
     animation-play-state: paused
+}
+
+.slider:hover,
+.slider-1:hover h4,
+.slider-1:hover h6,
+.slider-1:hover p {
+    color: var(--secundary-Dark);
+}
+
+.slider:hover,
+.slider-2:hover h4,
+.slider-2:hover h6,
+.slider-2:hover p {
+    color: var(--secundary-Dark);
+}
+
+.slider:hover,
+.slider-3:hover h4,
+.slider-3:hover h6,
+.slider-3:hover p {
+    color: var(--secundary-Dark);
+}
+
+.slider:hover,
+.slider-4:hover h4,
+.slider-4:hover h6,
+.slider-4:hover p {
+    color: var(--secundary-Dark);
+}
+
+.slider:hover,
+.slider-5:hover h4,
+.slider-5:hover h6,
+.slider-5:hover p {
+    color: var(--secundary-Dark);
+}
+
+.slider:hover,
+.slider-6:hover h4,
+.slider-6:hover h6,
+.slider-6:hover p {
+    color: var(--secundary-Dark);
 }
 
 @keyframes scroll {
@@ -53,6 +96,8 @@
         transform: translateX(calc(-200px*12));
     }
 }
+
+
 
 
 .moveFastRight {
@@ -72,14 +117,14 @@
     margin-right: 80px;
     width: 50px;
     height: 50px;
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 100%;
     background-color: var(--dark-green);
     color: var(--pink);
 }
 
 .buttonSliders:hover {
-    background-color: var(--pink);
+    background-color: var(--secundary-Dark);
     transform: scale(1.05);
-    color: var(--dark-green);
+    color: var(--primary-Dark);
 }
