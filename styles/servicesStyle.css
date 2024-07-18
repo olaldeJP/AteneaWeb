@@ -1,6 +1,6 @@
 .boxSerices {
     border: solid 2px var(--dark-green);
-    padding-top: 10px;
+    padding-top: 20px !important;
     border-radius: 20px;
     overflow: hidden;
     height: 130px !important;

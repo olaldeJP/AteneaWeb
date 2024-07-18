@@ -1,4 +1,4 @@
 .sectionHistoria {
     background: linear-gradient(to bottom, var(--firstColor), var(--secondColor));
-
+    margin: 100px;
 }
