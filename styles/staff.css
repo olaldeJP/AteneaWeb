@@ -3,26 +3,45 @@
 }
 
 .slider {
+    position: relative;
+    transition: all 1s;
     height: auto;
     margin: auto;
     overflow: hidden;
 }
 
+
+
+
 .slide-track {
 
     animation: scroll 25s linear infinite;
     -webkit-animation: scroll 25s linear infinite;
-    /* Algunos navegadores no tienen los animation de CSS5, con esto se soluciona */
     width: calc(400px *12) !important;
-    /* Tamaño de cada box que van a tener */
 }
 
-.slider .slide {
+.slider p {
+    visibility: hidden;
+}
+
+.slider img {
+    width: 150px !important;
+    height: 170px !important;
+    border-radius: 100%;
+}
+
+.slide {
     border-radius: 20px;
     margin: 10px;
     padding: 15px;
     border: 2px solid var(--primary-Dark);
     width: 400px;
+    height: 350px;
+}
+
+.slide::after {
+    height: 350px;
+    transition: all 1s ease;
 }
 
 .slide h4,
@@ -31,12 +50,12 @@
 }
 
 .slide:hover {
-    transition: all 0.5s;
+    transition: all 1s;
     transform: scale(1.04);
     background-color: var(--primary-Dark) !important;
     box-shadow: 0px 0px 15px 0px var(--primary-Dark-Oppacity) !important;
+    height: 550px;
 }
-
 
 
 .slider:hover .slide-track:hover {
@@ -48,6 +67,12 @@
 .slider-1:hover h6,
 .slider-1:hover p {
     color: var(--secundary-Dark);
+    visibility: visible;
+}
+
+
+.slider-1:hover img {
+    display: none;
 }
 
 .slider:hover,
@@ -55,6 +80,11 @@
 .slider-2:hover h6,
 .slider-2:hover p {
     color: var(--secundary-Dark);
+    visibility: visible;
+}
+
+.slider-2:hover img {
+    display: none;
 }
 
 .slider:hover,
@@ -62,6 +92,11 @@
 .slider-3:hover h6,
 .slider-3:hover p {
     color: var(--secundary-Dark);
+    visibility: visible;
+}
+
+.slider-3:hover img {
+    display: none;
 }
 
 .slider:hover,
@@ -69,13 +104,24 @@
 .slider-4:hover h6,
 .slider-4:hover p {
     color: var(--secundary-Dark);
+    visibility: visible;
 }
+
+.slider-4:hover img {
+    display: none;
+}
+
 
 .slider:hover,
 .slider-5:hover h4,
 .slider-5:hover h6,
 .slider-5:hover p {
     color: var(--secundary-Dark);
+    visibility: visible;
+}
+
+.slider-5:hover img {
+    display: none;
 }
 
 .slider:hover,
@@ -83,6 +129,11 @@
 .slider-6:hover h6,
 .slider-6:hover p {
     color: var(--secundary-Dark);
+    visibility: visible;
+}
+
+.slider-6:hover img {
+    display: none;
 }
 
 @keyframes scroll {
@@ -127,4 +178,9 @@
     background-color: var(--secundary-Dark);
     transform: scale(1.05);
     color: var(--primary-Dark);
+}
+
+.slide img {
+    width: 150px;
+    height: auto;
 }
