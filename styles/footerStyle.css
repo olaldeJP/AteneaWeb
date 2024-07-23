@@ -1,7 +1,7 @@
 .footer {
 
     background-color: var(--primary-Dark);
-    height: 250px;
+    height: 350px;
 }
 
 #Capa_1 {
@@ -17,4 +17,8 @@
 
 .boxInf {
     margin-top: 15px;
+}
+
+.fond {
+    background-color: var(--primary-Dark);
 }
