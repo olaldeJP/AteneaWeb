@@ -1,16 +1,20 @@
 .footer {
 
     background-color: var(--primary-Dark);
-    height: 300px;
+    height: 250px;
 }
 
 #Capa_1 {
-    width: 16% !important;
+
     border-radius: 100%;
-    background-color: var(--secundary-Dark);
-    margin: 15px;
+
+
 }
 
 .textoInfo {
     color: var(--secundary-Dark);
+}
+
+.boxInf {
+    margin-top: 15px;
 }

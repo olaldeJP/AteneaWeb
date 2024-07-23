@@ -8,6 +8,7 @@
     height: auto;
     margin: auto;
     overflow: hidden;
+
 }
 
 
@@ -33,6 +34,7 @@
 
 .slide {
     border-radius: 20px;
+    background-color: var(--secundary-Light);
     margin: 10px;
     padding: 15px;
     border: 2px solid var(--primary-Dark);

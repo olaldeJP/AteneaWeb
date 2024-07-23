@@ -73,3 +73,8 @@
 .dropdown-menu li a:hover {
     background-color: var(--primary-Dark) !important;
 }
+
+
+.banderas {
+    width: 30px;
+}
