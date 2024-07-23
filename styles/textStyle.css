@@ -1,5 +1,5 @@
 .textTitulo {
-    border-bottom: 1px solid var(--dark-green);
+    border-bottom: 1px solid var(--primary-Dark);
 }
 
 p {
@@ -7,5 +7,5 @@ p {
 }
 
 h5 {
-    color: var(--dark-green);
+    color: var(--primary-Dark);
 }

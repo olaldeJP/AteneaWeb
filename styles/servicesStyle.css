@@ -1,5 +1,5 @@
 .boxSerices {
-    border: solid 2px var(--dark-green);
+    border: solid 2px var(--primary-Dark);
     padding-top: 20px !important;
     border-radius: 20px;
     overflow: hidden;
@@ -13,8 +13,8 @@
 
 .boxSerices svg {
     border-radius: 100%;
-    background-color: var(--dark-green);
-    border: 2px solid var(--dark-green);
+    background-color: var(--primary-Dark);
+    border: 2px solid var(--primary-Dark);
 }
 
 .boxText p {
@@ -28,7 +28,7 @@
 .boxSerices:hover {
     height: 450px !important;
     transform: scale(1.04);
-    background-color: var(--dark-green);
+    background-color: var(--primary-Dark);
 
 }
 

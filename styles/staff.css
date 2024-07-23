@@ -50,7 +50,7 @@
 
 .slide h4,
 .slide h6 {
-    color: var(--dark-green);
+    color: var(--primary-Dark);
 }
 
 .slide:hover {
@@ -174,8 +174,8 @@
     height: 50px;
     border: 2px solid;
     border-radius: 100%;
-    background-color: var(--dark-green);
-    color: var(--pink);
+    background-color: var(--primary-Dark);
+    color: var(--secundary-Dark);
 }
 
 .buttonSliders:hover {

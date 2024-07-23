@@ -14,7 +14,7 @@
 
 .sectionBienvenidosLeft h1,
 p {
-    color: var(--dark-green);
+    color: var(--primary-Dark);
 }
 
 .sectionBienvenidosLeft {
@@ -36,8 +36,8 @@ p {
 }
 
 .btn-outline-primary {
-    color: var(--pink);
-    background-color: var(--dark-green);
+    color: var(--secundary-Dark);
+    background-color: var(--primary-Dark);
     border-color: var(--grey);
     width: 180px;
     height: 70px;
@@ -45,6 +45,6 @@ p {
 
 .btn-outline-primary:hover {
     border-color: var(--grey);
-    background-color: var(--pink);
-    color: var(--dark-green);
+    background-color: var(--secundary-Dark);
+    color: var(--primary-Dark);
 }
