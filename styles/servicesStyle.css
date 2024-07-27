@@ -7,7 +7,7 @@
     transition: all 1.5s ease;
     width: 550px !important;
     text-align: center;
-    background-color: var(--secundary-Light);
+
 
 }
 
@@ -25,12 +25,7 @@
 
 }
 
-.boxSerices:hover {
-    height: 450px !important;
-    transform: scale(1.04);
-    background-color: var(--primary-Dark);
 
-}
 
 .boxSerices1 {
     height: 150px !important;
@@ -38,7 +33,14 @@
 
 .boxSerices1:hover {
     transition: all 2s ease;
-    height: 700px !important;
+    height: 650px !important;
+}
+
+.boxSerices:hover {
+    height: 450px !important;
+    transform: scale(1.04);
+    background-color: var(--primary-Dark);
+
 }
 
 .boxSerices:hover p {
@@ -56,4 +58,31 @@
 
 .svgComer {
     width: 9%;
+}
+
+
+
+.mostrarServiceAsesora {
+    transition: all 2s ease;
+    height: 650px !important;
+}
+
+.mostrarService {
+    height: 450px !important;
+    transform: scale(1.04);
+    background-color: var(--primary-Dark);
+
+}
+
+.mostrarService p {
+    visibility: visible;
+    color: var(--secundary-Dark);
+}
+
+.mostrarService svg {
+    background-color: var(--secundary-Dark);
+}
+
+.mostrarService h5 {
+    color: var(--secundary-Dark);
 }

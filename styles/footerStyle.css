@@ -22,3 +22,35 @@
 .fond {
     background-color: var(--primary-Dark);
 }
+
+.iconDownload {
+    width: 45px;
+    padding: 5px;
+    height: auto;
+    background-color: var(--secundary-Dark);
+    border-radius: 8px;
+}
+
+.textDownload {
+    color: var(--secundary-Dark);
+}
+
+.linkDownload {
+    border-radius: 8px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.svgFooters {
+    width: 7%;
+    border-radius: 100%;
+    background-color: var(--secundary-Dark);
+    padding: 3px;
+}
+
+
+@media (max-width:500px) {
+    .footer {
+        flex-direction: column !important;
+    }
+}

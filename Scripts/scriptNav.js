@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const target = document.querySelector(
         "#" + event.target.href.split("#")[1]
       );
-
+      console.log(document.querySelector("#MercadoCarb").ariaValueMax);
       const headerOffset = 100; // Ajusta este valor según la altura de tu header
       const elementPosition = target.getBoundingClientRect().top;
       const offsetPosition =
@@ -54,6 +54,11 @@ document.addEventListener("DOMContentLoaded", function () {
       // Despliega el menú desplegable
       const dropdown = new bootstrap.Dropdown(dropdownLink);
       dropdown.show();
+      document.querySelector(target).classList.contains("mostrar");
     });
   });
 });
+
+function mostrarOcultar() {
+  document.querySelector(target).classList.contains("mostrar");
+}

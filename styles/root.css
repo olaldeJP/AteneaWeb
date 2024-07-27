@@ -32,6 +32,10 @@ p {
     font-size: 17px !important;
 }
 
+.text {
+    color: var(--secundary-Dark);
+}
+
 .justified-text {
     text-align: justify;
 }
