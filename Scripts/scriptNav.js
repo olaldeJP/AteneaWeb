@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const target = document.querySelector(
         "#" + event.target.href.split("#")[1]
       );
-      console.log(document.querySelector("#MercadoCarb").ariaValueMax);
+
       const headerOffset = 100; // Ajusta este valor según la altura de tu header
       const elementPosition = target.getBoundingClientRect().top;
       const offsetPosition =
@@ -50,11 +50,20 @@ document.addEventListener("DOMContentLoaded", function () {
         top: offsetPosition,
         behavior: "smooth",
       });
-
+      if (!target.classList.contains("mostrarService")) {
+        target.classList.add("mostrarService");
+        if (target.classList.contains("boxSerices1")) {
+          target.classList.add("mostrarServiceAsesora");
+        }
+      } else {
+        target.classList.remove("mostrarService");
+        if (target.classList.contains("boxSerices1")) {
+          target.classList.remove("mostrarServiceAsesora");
+        }
+      }
       // Despliega el menú desplegable
       const dropdown = new bootstrap.Dropdown(dropdownLink);
       dropdown.show();
-      document.querySelector(target).classList.contains("mostrar");
     });
   });
 });
