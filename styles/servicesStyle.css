@@ -7,7 +7,7 @@
     transition: all 1.5s ease;
     width: 550px !important;
     text-align: center;
-
+    cursor: pointer;
 
 }
 
@@ -88,4 +88,21 @@
 .mostrarServiceAsesora {
     transition: all 2s ease;
     height: 650px !important;
+}
+
+@media (max-width:570px) {
+    .boxSerices {
+        width: 400px !important;
+    }
+
+
+
+    .boxSerices:hover {
+        height: 550px !important;
+    }
+
+    .boxSerices1:hover {
+
+        height: 750px !important;
+    }
 }

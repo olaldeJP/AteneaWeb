@@ -82,3 +82,17 @@
 .banderas {
     width: 30px;
 }
+
+@media (max-width:425px) {
+    .imgLog {
+        width: 90px !important;
+        height: 90px !important;
+    }
+}
+
+@media (max-width:388px) {
+    .imgLog {
+        width: 60px !important;
+        height: 60px !important;
+    }
+}
