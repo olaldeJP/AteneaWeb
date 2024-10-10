@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+	 viewBox="0 0 1920 1400" style="enable-background:new 0 0 1920 1400;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FDE482;}
 	.st1{fill:#18773E;}
@@ -9,16 +9,18 @@
 	.st3{fill:#114B29;stroke:#000000;stroke-miterlimit:10;}
 </style>
 <g id="atras">
-	<path class="st0" d="M0,902.3l1920-1.5V334.3C1481.9,589.1,795.1,745.8,0,835.3C0,835.3,0,775.3,0,902.3z"/>
+	<path class="st0" d="M0.1,1222l1920-1.5V654C1482,908.7,795.3,1065.5,0.1,1155C0.1,1155,0.1,1095,0.1,1222z"/>
 </g>
 <g id="Medio">
-	<path class="st1" d="M0,902.3l1920-1.5V334C1444.6,610.5,923.8,871,0,902.3z"/>
+	<path class="st1" d="M0.1,1222l1920-1.5V653.7C1444.8,930.2,923.9,1190.7,0.1,1222z"/>
 </g>
 <g id="adelante">
 	<g id="Capa_3">
-		<path class="st2" d="M0.5,903.1H1920V507.3C1482.6,700.3,850.5,881.2,0.5,903.1z"/>
-		<path class="st3" d="M1480.4,681.6"/>
+		<g>
+			<path class="st2" d="M1.1,1222h1919V826.2C1482.8,1019.2,850.9,1200.1,1.1,1222z"/>
+		</g>
+		<path class="st3" d="M1480.6,1000.5"/>
 	</g>
 </g>
-<rect x="0.3" y="900.8" class="st2" width="1919.9" height="179.2"/>
+<rect x="0.6" y="1222" class="st2" width="1920" height="177.7"/>
 </svg>

@@ -1,7 +1,15 @@
-.footer {
+.fondoFot {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/footerSVG.svg');
+    width: 100%;
+    height: 750px;
+}
 
+.footer {
     background-color: var(--primary-Dark);
-    height: 350px;
+    height: 450px;
 }
 
 #Capa_1 {
@@ -24,9 +32,8 @@
 }
 
 .iconDownload {
-    width: 45px;
+    width: 50px;
     padding: 5px;
-    height: auto;
     background-color: var(--secundary-Dark);
     border-radius: 8px;
 }
@@ -36,21 +43,46 @@
 }
 
 .linkDownload {
+    width: 150% !important;
     border-radius: 8px;
-    padding: 10px;
+    transition: all 1s ease;
+    margin-bottom: 70px;
+    height: 80px !important;
     text-decoration: none;
 }
 
 .svgFooters {
-    width: 7%;
+    width: 50px;
     border-radius: 100%;
     background-color: var(--secundary-Dark);
     padding: 3px;
 }
 
 
-@media (max-width:500px) {
+.linkDownload:hover {
+    background-color: var(--secundary-Dark);
+    color: var(--primary-Dark);
+
+}
+
+.linkDownload:hover svg {
+    background-color: var(--primary-Dark);
+}
+
+.linkDownload:hover p {
+    color: var(--primary-Dark);
+}
+
+@media (min-width:650px) {
     .footer {
         flex-direction: column !important;
+    }
+
+    .linkDownload {
+        width: 60% !important;
+    }
+
+    .svgFooters {
+        width: 30px !important;
     }
 }
