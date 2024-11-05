@@ -5,7 +5,7 @@
     overflow: hidden;
     height: 130px !important;
     transition: all 1.5s ease;
-    width: 550px !important;
+    width: 600px !important;
     text-align: center;
     cursor: pointer;
 
@@ -52,9 +52,7 @@
     width: 9%;
 }
 
-.boxSerices1 {
-    height: 150px !important;
-}
+
 
 .boxSerices1:hover {
     transition: all 2s ease;
@@ -93,6 +91,7 @@
 @media (max-width:570px) {
     .boxSerices {
         width: 400px !important;
+        height: 150px !important;
     }
 
 

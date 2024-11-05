@@ -86,3 +86,16 @@
         width: 30px !important;
     }
 }
+
+.copy {
+    background-color: black;
+
+}
+
+.copy p {
+    color: var(--secundary-Dark);
+}
+
+.aolaldejp {
+    color: var(--secundary-Dark);
+}
