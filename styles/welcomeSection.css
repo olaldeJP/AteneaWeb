@@ -21,3 +21,15 @@
     border: 1px solid black;
     border-radius: 100%;
 }
+
+@media (max-width:1200px) {
+    .welcomeSection {
+        margin-top: 300px !important;
+    }
+}
+
+@media (max-width:1200px) {
+    .welcomeSection {
+        margin-top: 300px !important;
+    }
+}
